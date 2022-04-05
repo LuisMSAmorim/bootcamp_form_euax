@@ -18,7 +18,7 @@
     </header>
 
     <main class="main_content">
-        <form action="POST" class="form">
+        <form action="javascript:teste()" class="form">
             <h2>Cadastro para o Bootcamp</h2>
 
             <p>Informe seus dados pessoais e esteja pronto para entrar nessa jornada</p>
@@ -30,16 +30,15 @@
             <input placeholder="Insira seu e-mail" class="form_input" id="email" type="email">
 
             <label class="form_label" for="area">Área de atuação</label>
-            <select class="form_input" name="" id="area">
-                <option value="0">Selecione uma opção</option>
-                <option value="1">Dev</option>
-                <option value="2">QA</option>
+            <select class="form_input" name="area" id="area">
+                <option value="">Selecione uma opção</option>
+                <option value="desenvolvedor">Dev</option>
+                <option value="analista de qualidade">QA</option>
             </select>
 
             <button type="submit" class="form_button">Embarcar nessa jornada</button>
         </form>
     </main>
-
-    <footer></footer>
+    <script src="./index.js"></script>
 </body>
 </html>

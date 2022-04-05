@@ -105,3 +105,8 @@ button {
 .form_button:hover {
     background-color: #37a636;
 }
+
+.error {
+    color: red;
+    font-size: 1rem;
+}
